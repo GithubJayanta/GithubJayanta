@@ -1,7 +1,6 @@
-<!-- Header banner -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=180&section=header&text=Jayanta&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=VLSI%20%7C%20ASIC%20Design%20%26%20Verification&descAlignY=60&descSize=18" alt="header" />
-</p>
+<!-- Header -->
+<h1 align="center">Hi, I'm Jayanta 👋</h1>
+<h3 align="center">VLSI &nbsp;|&nbsp; ASIC Design &amp; Verification</h3>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
@@ -86,8 +85,12 @@ future_goals = {
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=GithubJayanta&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GithubJayanta&layout=compact&theme=tokyonight&hide_border=true" />
+  <img src="https://img.shields.io/github/followers/GithubJayanta?style=for-the-badge&logo=github&color=0A66C2" />
+  <img src="https://komarev.com/ghpvc/?username=GithubJayanta&label=Profile%20Views&color=00C2FF&style=for-the-badge" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=GithubJayanta&theme=tokyonight&hide_border=true" />
 </p>
 
 ## 📫 Let's Connect
@@ -96,8 +99,4 @@ future_goals = {
   <a href="https://www.linkedin.com/in/your-linkedin"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://github.com/GithubJayanta"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,100:0f2027&height=100&section=footer" />
 </p>
