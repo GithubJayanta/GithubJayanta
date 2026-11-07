@@ -32,13 +32,15 @@ endmodule
 
 ## 🚀 Featured Projects
 
+<!-- TODO: confirm each repo name below matches your actual GitHub repo URL -->
+
 | Project | Highlights |
 |---|---|
 | 🤖 **[AI-Assisted RTL Regression & Debug Framework](https://github.com/GithubJayanta/ai-rtl-regression-debug-framework)** | Cocotb + Verilator FIFO regression over 20 random seeds, fault injection, 40 SLURM-parallel runs, Gemini-based root-cause analysis |
-| 🔬 **4-bit Pipelined MAC – RTL to GDSII** | Open-source flow on SKY130 (Yosys, OpenLane2, OpenROAD, OpenSTA); **227–735 MHz** across 9 PVT×RC corners, zero timing violations |
-| ⚡ **4-bit Wallace Tree Multiplier IP** | Transistor-level in Cadence Virtuoso, 90 nm CMOS; **2.02 GHz** with 828 transistors |
-| ➕ **4-bit Kogge-Stone Adder** | RTL-to-GDS flow with Verilator, cocotb and Vivado/xsim verification |
-| 📡 **Arduino Radar & Obstacle-Avoiding Car** | Embedded C, ultrasonic + servo 180° scanning, real-time serial visualization |
+| 🔬 **[4-bit Pipelined MAC – RTL to GDSII](https://github.com/GithubJayanta/pipelined-mac-rtl-to-gdsii)** | Open-source flow on SKY130 (Yosys, OpenLane2, OpenROAD, OpenSTA); **227–735 MHz** across 9 PVT×RC corners, zero timing violations |
+| ⚡ **[4-bit Wallace Tree Multiplier IP](https://github.com/GithubJayanta/wallace-tree-multiplier)** | Transistor-level in Cadence Virtuoso, 90 nm CMOS; **2.02 GHz** with 828 transistors |
+| ➕ **[4-bit Kogge-Stone Adder](https://github.com/GithubJayanta/kogge-stone-adder)** | RTL-to-GDS flow with Verilator, cocotb and Vivado/xsim verification |
+| 📡 **[Arduino Radar](https://github.com/GithubJayanta/arduino-radar) & [Obstacle-Avoiding Car](https://github.com/GithubJayanta/obstacle-avoiding-car)** | Embedded C, ultrasonic + servo 180° scanning, real-time serial visualization |
 
 ## 🛠️ Tech Stack
 
