@@ -1,135 +1,103 @@
-<h1 align="center">Hi, I'm Jayanta Chakraborty 👋</h1>
-
+<!-- Header banner -->
 <p align="center">
-  <b>Electronics & Communication Engineering student | VLSI & ASIC Design Enthusiast</b><br>
-  Turning RTL into silicon, from transistor-level design to GDSII.
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=180&section=header&text=Jayanta&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=VLSI%20%7C%20ASIC%20Design%20%26%20Verification&descAlignY=60&descSize=18" alt="header" />
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-ID"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:jc2729@ece.jgec.ac.in"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=00C2FF&center=true&vCenter=true&width=600&lines=RTL+Design+%7C+Physical+Design+%7C+Verification;ECE+Undergrad+%40+JGEC+(2027);Open+to+Relocate+to+Bangalore" alt="typing" />
+  </a>
 </p>
 
----
+<p align="center">
+  <img src="https://img.shields.io/badge/Focus-VLSI%20%2F%20ASIC-00C2FF?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Open%20to%20Work-2ea44f?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Graduating-2027-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Location-India-blueviolet?style=for-the-badge" />
+</p>
 
-## 🧑‍💻 About Me
+## 👨‍💻 About Me
 
-- 🎓 4th-year B.Tech student in **Electronics and Communication Engineering** at **Jalpaiguri Government Engineering College** (2023–2027), CGPA **8.93** through 3rd year
-- 🏅 **2nd rank in academics** for the 2025–26 session
-- 🔬 Summer intern at the **Microelectronics Technology and VLSI Design Lab, Jadavpur University** (2025)
-- 🚦 Participant in **Smart India Hackathon 2024**, where I built an AI-driven intelligent traffic management solution
-- 📍 Based in West Bengal, India
+```verilog
+module jayanta_profile;
+  // 4th-year ECE @ Jalpaiguri Government Engineering College
+  parameter ROLE     = "VLSI / ASIC Engineer (Aspiring)";
+  parameter FOCUS    = "RTL Design | Physical Design | Verification";
+  parameter TARGET   = "NVIDIA | Qualcomm | AMD | ARM | Infineon";
+  parameter RELOCATE = "Bangalore";
 
----
-
-## 🛠️ Tech Stack & Skills
-
-**Languages**
-
-![Verilog](https://img.shields.io/badge/Verilog-1F425F?style=flat-square)
-![SystemVerilog](https://img.shields.io/badge/SystemVerilog-005C8F?style=flat-square)
-![TCL](https://img.shields.io/badge/TCL-E4CC98?style=flat-square&logoColor=black)
-![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Embedded C](https://img.shields.io/badge/Embedded%20C-444444?style=flat-square)
-
-**ASIC / EDA Tools**
-
-![Yosys](https://img.shields.io/badge/Yosys-2E7D32?style=flat-square)
-![OpenLane2](https://img.shields.io/badge/OpenLane2-1565C0?style=flat-square)
-![OpenROAD](https://img.shields.io/badge/OpenROAD-6A1B9A?style=flat-square)
-![OpenSTA](https://img.shields.io/badge/OpenSTA-AD1457?style=flat-square)
-![Magic](https://img.shields.io/badge/Magic-EF6C00?style=flat-square)
-![KLayout](https://img.shields.io/badge/KLayout-00838F?style=flat-square)
-![Cadence Virtuoso](https://img.shields.io/badge/Cadence%20Virtuoso-C62828?style=flat-square)
-![Xilinx Vivado](https://img.shields.io/badge/Xilinx%20Vivado-F57C00?style=flat-square)
-![LTSpice](https://img.shields.io/badge/LTSpice-455A64?style=flat-square)
-![SKY130 PDK](https://img.shields.io/badge/SkyWater%20SKY130-37474F?style=flat-square)
-
-**Design & Verification**
-
-Micro-architecture & Datapath Design · RTL Design · Physical Design · Static Timing Analysis (multi-corner PVT) · Functional Verification · Testbench Development · DFT · CDC
-
----
+  initial $display("Building chips, one netlist at a time. 🚀");
+endmodule
+```
 
 ## 🚀 Featured Projects
 
-### 🔹 [4×4 3-Stage Pipelined MAC Unit: Datapath Design & Full ASIC Flow](https://github.com/GithubJayanta/MAC_unit_4bit) &nbsp;`July 2026`
-A 3-stage pipelined multiply-accumulate datapath in structural Verilog, with a custom **Wallace Tree multiplier** and a **12-bit carry-look-ahead adder** built from gate-level primitives.
-- Full **RTL-to-GDSII** flow on **SkyWater SKY130**: Yosys → OpenLane2/OpenROAD → OpenSTA → Magic/KLayout
-- Closed at **223 standard cells / 28 flip-flops** with a DRC/LVS-clean layout
-- **Multi-corner STA** across 9 PVT×RC corners, with zero setup/hold violations and 227.55–735.11 MHz against a 200 MHz target
-- Self-checking golden-reference testbench
-
-`Verilog` `Yosys` `OpenLane2` `OpenROAD` `OpenSTA` `Magic` `KLayout` `SKY130`
-
-### 🔹 [Custom 4-bit Wallace Tree Multiplier: Transistor-Level IP Core](https://github.com/GithubJayanta/Custom_Wallace_Tree_Multiplier_IP) &nbsp;`June 2026`
-A 4-bit Wallace Tree multiplier designed **entirely at the transistor level** in Cadence Virtuoso, with no RTL and no synthesis tool. Partial-product generation, half/full adders and a CLA were built by hand across 63 gates / 828 transistors in 90 nm CMOS.
-- Functional correctness of **90–95%** verified through transient simulation, with waveform-level debug separating real failures from switching glitches
-- Hand-characterized PPA:
-
-| Metric | Result |
+| Project | Highlights |
 |---|---|
-| Avg. dynamic power | 2.22 µW |
-| Critical combinational delay | 395 ps |
-| Min. clock period | 495.691 ps (≈ 2.02 GHz) |
-| Power-delay product | 0.877 fJ |
-| Est. silicon area | 134–201 µm² |
+| 🤖 **[AI-Assisted RTL Regression & Debug Framework](https://github.com/GithubJayanta/ai-rtl-regression-debug-framework)** | Cocotb + Verilator FIFO regression over 20 random seeds, fault injection, 40 SLURM-parallel runs, Gemini-based root-cause analysis |
+| 🔬 **4-bit Pipelined MAC – RTL to GDSII** | Open-source flow on SKY130 (Yosys, OpenLane2, OpenROAD, OpenSTA); **227–735 MHz** across 9 PVT×RC corners, zero timing violations |
+| ⚡ **4-bit Wallace Tree Multiplier IP** | Transistor-level in Cadence Virtuoso, 90 nm CMOS; **2.02 GHz** with 828 transistors |
+| ➕ **4-bit Kogge-Stone Adder** | RTL-to-GDS flow with Verilator, cocotb and Vivado/xsim verification |
+| 📡 **Arduino Radar & Obstacle-Avoiding Car** | Embedded C, ultrasonic + servo 180° scanning, real-time serial visualization |
 
-`Cadence Virtuoso` `90 nm CMOS` `Transistor-level design` `PPA analysis`
+## 🛠️ Tech Stack
 
-### 🔹 [High-Speed 4-bit Kogge-Stone Adder: Micro-Architecture & PPA Analysis](https://github.com/GithubJayanta/4-Bit_Kogge_Stone_Adder) &nbsp;`June 2026`
-A parallel-prefix Kogge-Stone adder in Verilog, built as a comparative study against ripple-carry for high-speed arithmetic.
-- Synthesized with Yosys and taken through physical implementation with **0 DRC / 0 LVS violations**
-- **3.244 ns** post-layout critical path, **19.37 µW** power, **217.7 µm²** area
-- Quantified where the O(log₂ n) delay advantage pays off against physical-design overhead at small bit-widths
+**Languages**
 
-`Verilog` `Yosys` `Physical Design` `Kogge-Stone` `PPA`
+![Verilog](https://img.shields.io/badge/Verilog-1E90FF?style=flat-square)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![C](https://img.shields.io/badge/Embedded%20C-A8B9CC?style=flat-square&logo=c&logoColor=black)
+![Tcl](https://img.shields.io/badge/Bash%20%2F%20SLURM-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 
----
+**EDA & Verification**
 
-## 💼 Experience
+![Cadence](https://img.shields.io/badge/Cadence%20Virtuoso-E4002B?style=flat-square)
+![OpenLane](https://img.shields.io/badge/OpenLane2-FF8C00?style=flat-square)
+![OpenROAD](https://img.shields.io/badge/OpenROAD-8A2BE2?style=flat-square)
+![Yosys](https://img.shields.io/badge/Yosys-00A86B?style=flat-square)
+![Verilator](https://img.shields.io/badge/Verilator-DC143C?style=flat-square)
+![Cocotb](https://img.shields.io/badge/Cocotb-20B2AA?style=flat-square)
+![Vivado](https://img.shields.io/badge/Vivado-B22222?style=flat-square)
+![KLayout](https://img.shields.io/badge/KLayout-4682B4?style=flat-square)
+![Magic](https://img.shields.io/badge/Magic-9370DB?style=flat-square)
 
-**Summer Intern, Microelectronics Technology and VLSI Design Lab, Jadavpur University** &nbsp;`Jun – Jul 2025`
-- Designed digital datapath blocks in Verilog (a multiplexed 4-digit 7-segment display controller and a 4-bit shift register) and deployed them on FPGA through the **Xilinx Vivado** RTL-to-bitstream flow
-- Built custom CMOS standard-cell layouts (NAND/NOR) in **Cadence Virtuoso**
-- Designed and simulated a **MOS differential amplifier**
-- Got hands-on exposure to semiconductor fabrication: wafer cleaning, thermal oxidation, photolithography and etching
+**Protocols & Hardware**
 
----
+![AXI](https://img.shields.io/badge/AXI-0A66C2?style=flat-square)
+![APB](https://img.shields.io/badge/APB-0A66C2?style=flat-square)
+![UART](https://img.shields.io/badge/UART-0A66C2?style=flat-square)
+![SPI](https://img.shields.io/badge/SPI-0A66C2?style=flat-square)
+![I2C](https://img.shields.io/badge/I2C-0A66C2?style=flat-square)
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white)
 
-## 🔭 What I'm Exploring Next
+> 🧪 **Lab experience:** SMUs, DMMs, oscilloscopes, signal generators; CMOS layout and fabrication exposure at Jadavpur University's Microelectronics & VLSI Design lab.
 
-- 🧩 **Design for Test (DFT):** scan insertion, ATPG and testability-aware design
-- 🔀 **Clock Domain Crossing (CDC):** safe multi-clock design and verification
-- ⚙️ **Advanced Physical Design:** floorplanning, power planning, CTS and timing closure at larger scale
-- 🧪 **Design Verification:** SystemVerilog-based testbenches and verification methodology
-- 🌐 **Open-source silicon:** more open-PDK and open-EDA tapeout-oriented projects
-- 🧠 **Hardware accelerators:** pipelined and parallel arithmetic datapaths for compute-heavy workloads
+## 🔭 Exploring Next
 
----
-
-## 🎓 Education
-
-| Institution | Program | Period |
-|---|---|---|
-| Jalpaiguri Government Engineering College | B.Tech, ECE (CGPA 8.93 through 3rd year) | 2023 – 2027 |
-
-**Relevant coursework:** Computer Architecture · VLSI Design · CMOS Technology · RTL Design · Static Timing Analysis · Layout Design · Analog & Digital Electronics
-
----
+```python
+future_goals = {
+    "Verification":    ["UVM", "SVA", "Coverage-driven flows"],
+    "Physical Design": ["Floorplanning", "Placement", "CTS", "Timing closure"],
+    "Design":          ["Low-power CMOS", "Clock gating (ICG)", "DFT", "CDC"],
+    "ML for EDA":      ["GNN surrogates", "RL-based analog circuit sizing"],
+}
+```
 
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=GithubJayanta&show_icons=true&theme=default&hide_border=true" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GithubJayanta&layout=compact&hide_border=true" alt="Top languages" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=GithubJayanta&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GithubJayanta&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
-
----
 
 ## 📫 Let's Connect
 
-I'm open to **VLSI / ASIC design internships and collaborations**. Feel free to reach out at **jc2729@ece.jgec.ac.in** or on [LinkedIn](www.linkedin.com/in/jayanta-chakraborty-6625aa28a).
+<p align="center">
+  <a href="https://www.linkedin.com/in/your-linkedin"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://github.com/GithubJayanta"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+</p>
 
-<p align="center"><i>⚡ From transistors to timing closure, one design at a time.</i></p>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,100:0f2027&height=100&section=footer" />
+</p>
