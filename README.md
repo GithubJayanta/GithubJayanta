@@ -1,6 +1,8 @@
 <!-- Header -->
 <h1 align="center">Hi, I'm Jayanta 👋</h1>
-<h3 align="center">VLSI &nbsp;|&nbsp; ASIC Design &amp; Verification</h3>
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=2500&pause=1000&color=00C2FF&center=true&vCenter=true&repeat=true&width=520&height=30&lines=VLSI+%7C+ASIC+Design+%26+Verification;RTL+%C2%B7+Physical+Design+%C2%B7+Verification;ECE+Undergrad+%40+JGEC+(2027);Open+to+relocate+to+Bangalore" alt="VLSI | ASIC Design &amp; Verification" />
+</div>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Focus-VLSI%20%2F%20ASIC-00C2FF?style=for-the-badge" />
